@@ -2,6 +2,10 @@
 
 It is a single page react-app which demonstrates the features of taxi-inquiry/booking app (as per mentioned in the assignment)
 
+## Link of Project (Vercel)
+
+Here is link of the project deployed on vercel -> (https://taxi-inquiry.vercel.app/) so that you can check out live on different devices.
+
 ## Installation
 
 1. Clone the repositary and then navigate to project directory using CLI
