@@ -1,0 +1,121 @@
+.form-main-div{
+    background-color: #0a2351;
+    height: 100vh;
+}
+.form-heading{
+    color: white;
+    font-family: "Poppins";
+    font-size: xx-large;
+    padding: 18px 28px;
+    font-weight: bold;
+}
+.confirm-heading{
+    color: black;
+    font-family: "Poppins";
+    font-size: xx-large;
+    padding: 18px 28px;
+    font-weight: bold;
+}
+.confirm-description{
+    color: black;
+    font-family: "Poppins";
+    font-size: large;
+    padding: 18px 28px;
+}
+.user-data{
+    color: black;
+    font-family: "Poppins";
+    font-size: medium;
+    padding: 18px 28px;
+}
+.info-heading{
+    font-weight: bold;
+    color: black;
+}
+.form-div{
+    font-family: "Poppins";
+    margin-left: 28px;
+}
+.input-subdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-div{
+    margin: 14px 0px;
+}
+label{
+    color: white;
+    margin: 6px 0px;
+}
+input{
+    padding: 6px;
+    height: 36px;
+    background-color:#0e3681;
+    border-radius: 8px;
+    width: 260px;
+}
+.input-field{
+    color: white;
+    padding: 8px;
+}
+textarea{
+    padding: 6px;
+    height: 80px;
+    background-color:#0e3681;
+    border-radius: 8px;
+    width: 260px;
+    color: white;
+}
+span{
+    color:red;
+    font-family: "Poppins";
+margin: 4px;
+
+}
+textarea:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    padding: 4px;
+}
+button[type="submit"]{
+    margin: 16px 0px;
+    background-color: white;
+    color: #0a2351;
+    padding: 6px 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+button[type="submit"]:hover{
+    margin: 16px 0px;
+    background-color: #0a2351;
+    color: #fff;
+    border: 1px white solid;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+.home-btn{
+    margin: 20px 10px;
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.home-btn:hover{
+    background-color: #252525;
+
+}
+@media only screen and (max-width: 768px) {
+    .confirm-heading{
+    
+        font-size: larger;
+     
+    }
+  }

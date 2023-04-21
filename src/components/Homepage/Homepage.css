@@ -1,0 +1,73 @@
+.main-page {
+  background-color: #0a2351;
+  color: white;
+  padding: 16px;
+}
+.homepage {
+  padding: 10px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-around;
+}
+.homepage-box {
+  width: 480px;
+  font-family: "Poppins";
+}
+.headline-heading {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.feature-heading {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin-top: 34px;
+}
+.headline-description {
+  font-size: medium;
+  color: #cfcfcf;
+}
+.svgImg {
+  /* height: 500px; */
+  width: 460px;
+}
+.booking-btn {
+  margin: 16px 0px;
+  background-color: white;
+  color: #0a2351;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+.booking-btn:hover {
+  margin: 16px 0px;
+  background-color: #0a2351;
+  color: #fff;
+  border: 1px white solid;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .image-div {
+    display: none;
+  }
+  .feature-heading {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.feature-box {
+    border-radius: 10px;
+  padding: 24px;
+  margin: 18px;
+  font-family: "Poppins";
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.feature-tagline {
+  padding: 10px;
+}
