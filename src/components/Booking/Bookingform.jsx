@@ -4,11 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 function Bookingform() {
   const navigate = useNavigate();
+  // creating react-hook-form
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+// Validating date as user can only do booking of present day
 
   const validateDate = (value) => {
     const selectedDate = new Date(value);
@@ -26,6 +29,8 @@ function Bookingform() {
     }
     return true;
   };
+
+  // After filling form handling onSubmit event and sending user's data to confirmation page using state
   const onSubmit = (data) => {
     navigate("/bookingconfirmed", { state: { prop:data } });
   };

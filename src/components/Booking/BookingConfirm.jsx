@@ -3,9 +3,11 @@ import "./Bookingform.css";
 
 import { useLocation, Link } from "react-router-dom";
 function BookingConfirm() {
+  // using uselocation hook to catch the data came from submitting booking form in state named prop
   const location = useLocation();
   const userdata = location.state.prop;
-  console.log(userdata);
+
+  // rendering user's data into confirmation page
   return (
     <div className="confirmation-div">
       <div className="confirm-heading">

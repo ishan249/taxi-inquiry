@@ -12,6 +12,7 @@ import homeImage from "../../assets/undraw_order_ride_re_372k.svg";
 import Footer from "../Footer/Footer";
 function Homepage() {
   const navigate = useNavigate();
+  // handle submit function navigating to booking page on click event
   const handleSubmit = () => {
     navigate("/booking");
   };
