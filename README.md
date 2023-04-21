@@ -4,7 +4,7 @@ It is a single page react-app which demonstrates the features of taxi-inquiry/bo
 
 ##Link of Project (Vercel)
 
-Here is link[https://taxi-inquiry.vercel.app/] of the project deployed on vercel so that you can check out live on different devices.
+Here is link of the project deployed on vercel -> (https://taxi-inquiry.vercel.app/) so that you can check out live on different devices.
 
 ## Installation
 
